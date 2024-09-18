@@ -1,0 +1,74 @@
+# This is the top sidebar TOC.
+# The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  folders:
+
+  - title: 3rd Party Tools
+    output: web
+    folderitems:
+
+    - title: aarch64-none-elf-gcc
+      url: /aarch64-none-elf-gcc/
+      output: web
+    - title: arm-none-eabi-gcc
+      url: /arm-none-eabi-gcc/
+      output: web
+    - title: clang
+      url: /clang/
+      output: web
+    - title: cmake
+      url: /cmake/
+      output: web
+    - title: gcc
+      url: /gcc/
+      output: web
+    - title: meson-build
+      url: /meson-build/
+      output: web
+    - title: mingw-w64-gcc
+      url: /mingw-w64-gcc/
+      output: web
+    - title: ninja-build
+      url: /ninja-build/
+      output: web
+    - title: openocd
+      url: /openocd/
+      output: web
+    - title: qemu-arm
+      url: /qemu-arm/
+      output: web
+    - title: qemu-riscv
+      url: /qemu-riscv/
+      output: web
+    - title: riscv-none-elf-gcc
+      url: /riscv-none-elf-gcc/
+      output: web
+    - title: windows-build-tools
+      url: /windows-build-tools/
+      output: web
+
+  - title: Other 3rd Party Tools
+    output: web
+    folderitems:
+
+    - title: m4
+      url: /m4/
+      output: web
+    - title: patchelf
+      url: /patchelf/
+      output: web
+    - title: pkg-config
+      url: /pkg-config/
+      output: web
+    - title: realpath
+      url: /realpath/
+      output: web
+    - title: sed
+      url: /sed/
+      output: web
+    - title: wine
+      url: /wine/
+      output: web
+

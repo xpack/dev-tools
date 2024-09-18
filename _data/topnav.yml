@@ -1,0 +1,18 @@
+## Topnav single links
+## If you want to list an external url, use external_url instead of url.
+## The theme will apply a different link base.
+
+topnav:
+- title: Topnav
+  items:
+
+#Topnav dropdowns
+topnav_dropdowns:
+- title: Topnav dropdowns
+  folders:
+    - title: GitHub
+      folderitems:
+        - title: dev-tools-web-preview
+          external_url: https://github.com/xpack/dev-tools-web-preview/
+        - title: xpack-dev-tools
+          external_url: https://github.com/xpack-dev-tools/

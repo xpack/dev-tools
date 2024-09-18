@@ -1,0 +1,27 @@
+# This is the meson-build sidebar TOC.
+# The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: Sidebar
+  product: Meson Build
+  # version: 1.0
+  folders:
+
+  - title: Getting Started
+    output: web
+    folderitems:
+    - title: Overview
+      url: /meson-build/
+      output: web
+    - title: Install
+      url: /meson-build/install/
+      output: web
+    - title: Support
+      url: /meson-build/support/
+      output: web
+    - title: FAQ
+      url: /meson-build/faq/
+      output: web
+    - title: Releases
+      url: /meson-build/releases/
+      output: web

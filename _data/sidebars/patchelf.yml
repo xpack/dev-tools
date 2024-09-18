@@ -1,0 +1,27 @@
+# This is the patchelf sidebar TOC.
+# The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: Sidebar
+  product: NixOS PatchELF
+  # version: 1.0
+  folders:
+
+  - title: Getting Started
+    output: web
+    folderitems:
+    - title: Overview
+      url: /patchelf/
+      output: web
+    - title: Install
+      url: /patchelf/install/
+      output: web
+    - title: Support
+      url: /patchelf/support/
+      output: web
+    - title: FAQ
+      url: /patchelf/faq/
+      output: web
+    - title: Releases
+      url: /patchelf/releases/
+      output: web

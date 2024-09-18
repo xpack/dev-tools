@@ -1,0 +1,68 @@
+# This is the xpm sidebar TOC.
+# The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: Sidebar
+  product: xpm
+  # version: 1.0
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Getting Started
+    output: web, pdf
+    folderitems:
+    - title: Overview
+      url: /xpm/
+      output: web
+    - title: Install
+      url: /xpm/install/
+      output: web
+    - title: Support
+      url: /xpm/support/
+      output: web
+    - title: FAQ
+      url: /xpm/faq/
+      output: web
+    - title: Releases
+      url: /xpm/releases/
+      output: web
+    - title: Published versions
+      external_url: https://www.npmjs.com/package/xpm?activeTab=versions
+      output: web
+
+  - title: CLI commands
+    output: web, pdf
+    folderitems:
+    - title: xpm
+      url: /xpm/cli/
+      output: web
+    - title: xpm init
+      url: /xpm/cli/init/
+      output: web
+    - title: xpm install
+      url: /xpm/cli/install/
+      output: web
+    - title: xpm link
+      url: /xpm/cli/link/
+      output: web
+    - title: xpm list
+      url: /xpm/cli/list/
+      output: web
+    - title: xpm run
+      url: /xpm/cli/run/
+      output: web
+    - title: xpm uninstall
+      url: /xpm/cli/uninstall/
+      output: web

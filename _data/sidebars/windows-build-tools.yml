@@ -1,0 +1,27 @@
+# This is the windows-build-tools sidebar TOC.
+# The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: Sidebar
+  product: Windows Build Tools
+  # version: 1.0
+  folders:
+
+  - title: Getting Started
+    output: web
+    folderitems:
+    - title: Overview
+      url: /windows-build-tools/
+      output: web
+    - title: Install
+      url: /windows-build-tools/install/
+      output: web
+    - title: Support
+      url: /windows-build-tools/support/
+      output: web
+    - title: FAQ
+      url: /windows-build-tools/faq/
+      output: web
+    - title: Releases
+      url: /windows-build-tools/releases/
+      output: web

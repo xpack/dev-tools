@@ -1,0 +1,27 @@
+# This is the sed sidebar TOC.
+# The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: Sidebar
+  product: GNU sed
+  # version: 1.0
+  folders:
+
+  - title: Getting Started
+    output: web
+    folderitems:
+    - title: Overview
+      url: /sed/
+      output: web
+    - title: Install
+      url: /sed/install/
+      output: web
+    - title: Support
+      url: /sed/support/
+      output: web
+    - title: FAQ
+      url: /sed/faq/
+      output: web
+    - title: Releases
+      url: /sed/releases/
+      output: web

@@ -1,0 +1,27 @@
+# This is the xbb-bootstrap sidebar TOC.
+# The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: Sidebar
+  product: XBB Bootstrap
+  # version: 1.0
+  folders:
+
+  - title: Getting Started
+    output: web
+    folderitems:
+    - title: Overview
+      url: /xbb-bootstrap/
+      output: web
+    - title: Install
+      url: /xbb-bootstrap/install/
+      output: web
+    - title: Support
+      url: /xbb-bootstrap/support/
+      output: web
+    - title: FAQ
+      url: /xbb-bootstrap/faq/
+      output: web
+    - title: Releases
+      url: /xbb-bootstrap/releases/
+      output: web

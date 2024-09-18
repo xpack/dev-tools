@@ -1,0 +1,51 @@
+# This is the xpbuild sidebar TOC.
+# The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: Sidebar
+  product: xpbuild
+  # version: 1.0
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Getting Started
+    output: web, pdf
+    folderitems:
+    - title: Overview
+      url: /xpbuild/
+      output: web
+    - title: Install
+      url: /xpbuild/install/
+      output: web
+    - title: Support
+      url: /xpbuild/support/
+      output: web
+    - title: FAQ
+      url: /xpbuild/faq/
+      output: web
+    - title: Published versions (TODO)
+      external_url: https://www.npmjs.com/settings/ilg/packages
+      output: web
+
+  - title: CLI commands
+    output: web, pdf
+    folderitems:
+    - title: xpbuild
+      url: /xpbuild/cli/
+      output: web
+    - title: xpbuild init
+      url: /xpbuild/cli/init/
+      output: web
+

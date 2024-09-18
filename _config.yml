@@ -1,0 +1,614 @@
+url: https://xpack.github.io
+baseurl: /dev-tools-web-preview
+
+# Default permalink used for posts.
+permalink: /blog/:year/:month/:day/:title/
+
+# Update this after editing the CSS files, to force a cache update.
+css-date: 202211092358
+
+repository: xpack/dev-tools-web-preview
+
+# This property is useful for conditional filtering of content that is
+# separate from the PDF.
+output: web
+
+# This appears on the top navigation bar next to the home button.
+topnav_title: The xPack Project
+
+# This appears in the html browser tab for the site title (seen mostly
+# by search engines, not users).
+site_title: The xPack Build Framework
+
+company_name: xPack Project
+
+# This appears in the copyright notice in the footer.
+copyright_holder: Liviu Ionescu
+
+# If you're using Github, provide the basepath to the branch you've
+# created for reviews, following the sample here. if not, leave this
+# value blank.
+# github_editme_path: xpack/web-jekyll/blob/master/
+
+# If you're using disqus for comments, add the short name here.
+# If not, leave this value blank.
+# disqus_shortname: xpack
+
+# If you have google-analytics ID, put it in. if not, edit this value to blank.
+# google_analytics: UA-16767008-13
+google_analytics: "G-8WX9T80JEK"
+
+# The preview server used. Leave as is.
+host: localhost
+
+# The port where the preview is rendered. You can leave this as is
+# unless you have other Jekyll builds using this same port that
+# might cause conflicts. in that case, use another port such as 4006.
+port: 4004
+
+# These are the files and directories that jekyll will exclude from the build.
+exclude:
+  - .idea/
+  - .gitignore
+  - vendor
+  - README.md
+  - docker-compose.yml
+  - Dockerfile
+  - Gemfile*
+  - scripts/
+  - jekyll*.mac.command
+  - jekyll-localhost*.webloc
+  - CONTRIBUTING.md
+  - package.json
+  - node_modules/
+
+feedback_subject_line: [xPack]
+
+# Used as a contact email for the Feedback link in the top navigation bar.
+feedback_email: xpack.project@gmail.com
+
+# If you uncomment the previous line, the Feedback link gets removed.
+feedback_disable: true
+
+# If you uncomment the previous line, it changes the Feedback text.
+# feedback_text: "Need help?"
+
+# If you uncomment the previous line, it changes where the feedback
+# link points to.
+# feedback_link: "https://helpy.io/"
+
+# Library used for syntax highlighting.
+highlighter: rouge
+
+# filter used to process markdown. note that kramdown differs from
+# github-flavored markdown in some subtle ways.
+markdown: kramdown
+kramdown:
+ input: GFM
+ auto_ids: true
+ hard_wrap: false
+ syntax_highlighter: rouge
+
+# Collections are declared here. this renders the content in _tooltips
+# and processes it, but doesn't output it as actual files in the output
+# unless you change output to true.
+collections:
+  tooltips:
+    output: false
+
+# These are defaults used for the frontmatter for these file types.
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      comments: false
+      search: true
+      sidebar: home
+      topnav: topnav
+      author: Liviu Ionescu
+
+  -
+    scope:
+      path: "pages/news"
+      type: "pages"
+    values:
+      layout: "page"
+      comments: false
+      search: true
+      sidebar: home
+      topnav: topnav
+      author: Liviu Ionescu
+
+  -
+    scope:
+      path: "pages/tags"
+      type: "pages"
+    values:
+      layout: "page"
+      comments: false
+      search: exclude
+      sidebar: home
+      topnav: topnav
+      author: Liviu Ionescu
+
+  -
+    scope:
+      path: "pages/openocd"
+      type: "pages"
+    values:
+      layout: "page"
+      comments: false
+      search: true
+      sidebar: openocd
+      topnav: topnav
+      author: Liviu Ionescu
+      toc: true
+      github_editme: true
+
+  -
+    scope:
+      path: "pages/qemu-arm"
+      type: "pages"
+    values:
+      layout: "page"
+      comments: false
+      search: true
+      sidebar: qemu-arm
+      topnav: topnav
+      author: Liviu Ionescu
+      toc: true
+      github_editme: true
+
+  -
+    scope:
+      path: "pages/qemu-riscv"
+      type: "pages"
+    values:
+      layout: "page"
+      comments: false
+      search: true
+      sidebar: qemu-riscv
+      topnav: topnav
+      author: Liviu Ionescu
+      toc: true
+      github_editme: true
+
+  -
+    scope:
+      path: "pages/gcc"
+      type: "pages"
+    values:
+      layout: "page"
+      comments: false
+      search: true
+      sidebar: gcc
+      topnav: topnav
+      author: Liviu Ionescu
+      toc: true
+      github_editme: true
+
+  -
+    scope:
+      path: "pages/clang"
+      type: "pages"
+    values:
+      layout: "page"
+      comments: false
+      search: true
+      sidebar: clang
+      topnav: topnav
+      author: Liviu Ionescu
+      toc: true
+      github_editme: true
+
+  -
+    scope:
+      path: "pages/arm-none-eabi-gcc"
+      type: "pages"
+    values:
+      layout: "page"
+      comments: false
+      search: true
+      sidebar: arm-none-eabi-gcc
+      topnav: topnav
+      author: Liviu Ionescu
+      toc: true
+      github_editme: true
+
+  -
+    scope:
+      path: "pages/aarch64-none-elf-gcc"
+      type: "pages"
+    values:
+      layout: "page"
+      comments: false
+      search: true
+      sidebar: aarch64-none-elf-gcc
+      topnav: topnav
+      author: Liviu Ionescu
+      toc: true
+      github_editme: true
+
+  -
+    scope:
+      path: "pages/riscv-none-elf-gcc"
+      type: "pages"
+    values:
+      layout: "page"
+      comments: false
+      search: true
+      sidebar: riscv-none-elf-gcc
+      topnav: topnav
+      author: Liviu Ionescu
+      toc: true
+      github_editme: true
+
+  -
+    scope:
+      path: "pages/windows-build-tools"
+      type: "pages"
+    values:
+      layout: "page"
+      comments: false
+      search: true
+      sidebar: windows-build-tools
+      topnav: topnav
+      author: Liviu Ionescu
+      toc: true
+      github_editme: true
+
+  -
+    scope:
+      path: "pages/ninja-build"
+      type: "pages"
+    values:
+      layout: "page"
+      comments: false
+      search: true
+      sidebar: ninja-build
+      topnav: topnav
+      author: Liviu Ionescu
+      toc: true
+      github_editme: true
+
+  -
+    scope:
+      path: "pages/cmake"
+      type: "pages"
+    values:
+      layout: "page"
+      comments: false
+      search: true
+      sidebar: cmake
+      topnav: topnav
+      author: Liviu Ionescu
+      toc: true
+      github_editme: true
+
+  -
+    scope:
+      path: "pages/meson-build"
+      type: "pages"
+    values:
+      layout: "page"
+      comments: false
+      search: true
+      sidebar: meson-build
+      topnav: topnav
+      author: Liviu Ionescu
+      toc: true
+      github_editme: true
+
+  -
+    scope:
+      path: "pages/mingw-w64-gcc"
+      type: "pages"
+    values:
+      layout: "page"
+      comments: false
+      search: true
+      sidebar: mingw-w64-gcc
+      topnav: topnav
+      author: Liviu Ionescu
+      toc: true
+      github_editme: true
+
+  -
+    scope:
+      path: "pages/m4"
+      type: "pages"
+    values:
+      layout: "page"
+      comments: false
+      search: true
+      sidebar: m4
+      topnav: topnav
+      author: Liviu Ionescu
+      toc: true
+      github_editme: true
+
+  -
+    scope:
+      path: "pages/patchelf"
+      type: "pages"
+    values:
+      layout: "page"
+      comments: false
+      search: true
+      sidebar: patchelf
+      topnav: topnav
+      author: Liviu Ionescu
+      toc: true
+      github_editme: true
+
+  -
+    scope:
+      path: "pages/pkg-config"
+      type: "pages"
+    values:
+      layout: "page"
+      comments: false
+      search: true
+      sidebar: "pkg-config"
+      topnav: topnav
+      author: Liviu Ionescu
+      toc: true
+      github_editme: true
+
+  -
+    scope:
+      path: "pages/realpath"
+      type: "pages"
+    values:
+      layout: "page"
+      comments: false
+      search: true
+      sidebar: realpath
+      topnav: topnav
+      author: Liviu Ionescu
+      toc: true
+      github_editme: true
+
+  -
+    scope:
+      path: "pages/sed"
+      type: "pages"
+    values:
+      layout: "page"
+      comments: false
+      search: true
+      sidebar: sed
+      topnav: topnav
+      author: Liviu Ionescu
+      toc: true
+      github_editme: true
+
+  -
+    scope:
+      path: "pages/wine"
+      type: "pages"
+    values:
+      layout: "page"
+      comments: false
+      search: true
+      sidebar: wine
+      topnav: topnav
+      author: Liviu Ionescu
+      toc: true
+      github_editme: true
+
+  -
+    scope:
+      path: "pages/xbb-bootstrap"
+      type: "pages"
+    values:
+      layout: "page"
+      comments: false
+      search: true
+      sidebar: xbb-bootstrap
+      topnav: topnav
+      author: Liviu Ionescu
+      toc: true
+      github_editme: true
+
+  -
+    scope:
+      path: "pages/vscode"
+      type: "pages"
+    values:
+      layout: "page"
+      comments: false
+      search: true
+      sidebar: vscode
+      topnav: topnav
+      author: Liviu Ionescu
+      toc: true
+      github_editme: true
+
+  -
+    scope:
+      path: "pages/core/xpm"
+      type: "pages"
+    values:
+      layout: "page"
+      comments: false
+      search: true
+      sidebar: xpm
+      topnav: topnav
+      author: Liviu Ionescu
+      toc: true
+      github_editme: true
+
+  -
+    scope:
+      path: "pages/core/xpbuild"
+      type: "pages"
+    values:
+      layout: "page"
+      comments: false
+      search: true
+      sidebar: xpbuild
+      topnav: topnav
+      author: Liviu Ionescu
+      toc: true
+      github_editme: true
+
+  -
+    scope:
+      path: "pages/core/xpmake"
+      type: "pages"
+    values:
+      layout: "page"
+      comments: false
+      search: true
+      sidebar: xpmake
+      topnav: topnav
+      author: Liviu Ionescu
+      toc: true
+      github_editme: true
+
+  -
+    scope:
+      path: "pages/core/xpninja"
+      type: "pages"
+    values:
+      layout: "page"
+      comments: false
+      search: true
+      sidebar: xpninja
+      topnav: topnav
+      author: Liviu Ionescu
+      toc: true
+      github_editme: true
+
+  -
+    scope:
+      path: "pages/core/xpcdl"
+      type: "pages"
+    values:
+      layout: "page"
+      comments: false
+      search: true
+      sidebar: xpcdl
+      topnav: topnav
+      author: Liviu Ionescu
+      toc: true
+      github_editme: true
+
+  -
+    scope:
+      path: "pages/xbb"
+      type: "pages"
+    values:
+      layout: "page"
+      comments: false
+      search: true
+      sidebar: xbb
+      topnav: topnav
+      author: Liviu Ionescu
+      toc: true
+      github_editme: true
+
+
+  # For historical reasons
+  -
+    scope:
+      path: "pages/core/xcdl"
+      type: "pages"
+    values:
+      layout: "page"
+      comments: false
+      search: exclude
+      sidebar: xcdl
+      topnav: topnav
+      author: Liviu Ionescu
+      toc: true
+      github_editme: true
+
+  -
+    scope:
+      path: "pages/core/xmake"
+      type: "pages"
+    values:
+      layout: "page"
+      comments: false
+      search: exclude
+      sidebar: xmake
+      topnav: topnav
+      author: Liviu Ionescu
+      toc: true
+      github_editme: true
+
+  -
+    scope:
+      path: "pages/core/xsvd"
+      type: "pages"
+    values:
+      layout: "page"
+      comments: false
+      search: exclude
+      sidebar: xsvd
+      topnav: topnav
+      author: Liviu Ionescu
+      toc: true
+      github_editme: true
+
+  -
+    scope:
+      path: ""
+      type: "tooltips"
+    values:
+      layout: "page"
+      comments: false
+      search: true
+      tooltip: true
+
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+      search: true
+      sidebar: home
+      topnav: topnav
+      author: Liviu Ionescu
+      toc: false
+      github_editme: true
+
+
+
+# Used in links.html to find all links.
+sidebars:
+- home
+- news
+- openocd
+- xmake
+- xpbuild
+- xpm
+
+# The description is used in the feed.xml file.
+description: "Tools to manage, configure and build complex, package based, multi-target, C/C++ projects."
+
+# needed for sitemap.xml file only
+# url: https://idratherbewriting.com
+# baseurl: /documentation-theme-jekyll
+
+github: [metadata]
+
+# https://github.com/gjtorikian/jekyll-last-modified-at
+# {{ page.last_modified_at }}
+
+plugins:
+  - jekyll-redirect-from
+  - jekyll-last-modified-at
+
+last-modified-at:
+    date-format: '%d-%b-%y'
+
+whitelist:
+  - jekyll-redirect-from
