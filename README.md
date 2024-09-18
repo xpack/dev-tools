@@ -1,5 +1,5 @@
 
-# http:/xpack.github.io/dev-tools - Jekyll redirects
+# http:/xpack.github.io/dev-tools - redirects
 
 In september 2024, the **xPack 3rd Party Development Tools** web sites were
 moved to their corresponding projects in `xpack-dev-tools`

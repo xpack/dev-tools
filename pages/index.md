@@ -1,5 +1,5 @@
 ---
-title: "http:/xpack.github.io/dev-tools - Jekyll redirects"
+title: "http:/xpack.github.io/dev-tools - redirects"
 permalink: /
 
 comments: false
