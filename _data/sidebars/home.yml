@@ -5,7 +5,7 @@ entries:
 - title: sidebar
   folders:
 
-  - title: 3rd Party Tools
+  - title: Primary Tools
     output: web
     folderitems:
 
@@ -49,7 +49,7 @@ entries:
       url: /windows-build-tools/
       output: web
 
-  - title: Other 3rd Party Tools
+  - title: Secondary Tools
     output: web
     folderitems:
 
