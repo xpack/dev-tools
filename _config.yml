@@ -5,7 +5,7 @@ baseurl: /dev-tools-web-preview
 permalink: /blog/:year/:month/:day/:title/
 
 # Update this after editing the CSS files, to force a cache update.
-css-date: 202211092358
+css-date: 202409180000
 
 repository: xpack/dev-tools-web-preview
 
@@ -14,11 +14,11 @@ repository: xpack/dev-tools-web-preview
 output: web
 
 # This appears on the top navigation bar next to the home button.
-topnav_title: The xPack Project
+topnav_title: xpack-dev-tools redirects
 
 # This appears in the html browser tab for the site title (seen mostly
 # by search engines, not users).
-site_title: The xPack Build Framework
+site_title: xpack-dev-tools redirects
 
 company_name: xPack Project
 
@@ -105,7 +105,7 @@ defaults:
     values:
       layout: "page"
       comments: false
-      search: true
+      search: false
       sidebar: home
       topnav: topnav
       author: Liviu Ionescu
@@ -117,7 +117,7 @@ defaults:
     values:
       layout: "page"
       comments: false
-      search: true
+      search: false
       sidebar: home
       topnav: topnav
       author: Liviu Ionescu
@@ -141,7 +141,7 @@ defaults:
     values:
       layout: "page"
       comments: false
-      search: true
+      search: false
       sidebar: openocd
       topnav: topnav
       author: Liviu Ionescu
@@ -155,7 +155,7 @@ defaults:
     values:
       layout: "page"
       comments: false
-      search: true
+      search: false
       sidebar: qemu-arm
       topnav: topnav
       author: Liviu Ionescu
@@ -169,7 +169,7 @@ defaults:
     values:
       layout: "page"
       comments: false
-      search: true
+      search: false
       sidebar: qemu-riscv
       topnav: topnav
       author: Liviu Ionescu
@@ -183,7 +183,7 @@ defaults:
     values:
       layout: "page"
       comments: false
-      search: true
+      search: false
       sidebar: gcc
       topnav: topnav
       author: Liviu Ionescu
@@ -197,7 +197,7 @@ defaults:
     values:
       layout: "page"
       comments: false
-      search: true
+      search: false
       sidebar: clang
       topnav: topnav
       author: Liviu Ionescu
@@ -211,7 +211,7 @@ defaults:
     values:
       layout: "page"
       comments: false
-      search: true
+      search: false
       sidebar: arm-none-eabi-gcc
       topnav: topnav
       author: Liviu Ionescu
@@ -225,7 +225,7 @@ defaults:
     values:
       layout: "page"
       comments: false
-      search: true
+      search: false
       sidebar: aarch64-none-elf-gcc
       topnav: topnav
       author: Liviu Ionescu
@@ -239,7 +239,7 @@ defaults:
     values:
       layout: "page"
       comments: false
-      search: true
+      search: false
       sidebar: riscv-none-elf-gcc
       topnav: topnav
       author: Liviu Ionescu
@@ -253,7 +253,7 @@ defaults:
     values:
       layout: "page"
       comments: false
-      search: true
+      search: false
       sidebar: windows-build-tools
       topnav: topnav
       author: Liviu Ionescu
@@ -267,7 +267,7 @@ defaults:
     values:
       layout: "page"
       comments: false
-      search: true
+      search: false
       sidebar: ninja-build
       topnav: topnav
       author: Liviu Ionescu
@@ -281,7 +281,7 @@ defaults:
     values:
       layout: "page"
       comments: false
-      search: true
+      search: false
       sidebar: cmake
       topnav: topnav
       author: Liviu Ionescu
@@ -295,7 +295,7 @@ defaults:
     values:
       layout: "page"
       comments: false
-      search: true
+      search: false
       sidebar: meson-build
       topnav: topnav
       author: Liviu Ionescu
@@ -309,7 +309,7 @@ defaults:
     values:
       layout: "page"
       comments: false
-      search: true
+      search: false
       sidebar: mingw-w64-gcc
       topnav: topnav
       author: Liviu Ionescu
@@ -323,7 +323,7 @@ defaults:
     values:
       layout: "page"
       comments: false
-      search: true
+      search: false
       sidebar: m4
       topnav: topnav
       author: Liviu Ionescu
@@ -337,7 +337,7 @@ defaults:
     values:
       layout: "page"
       comments: false
-      search: true
+      search: false
       sidebar: patchelf
       topnav: topnav
       author: Liviu Ionescu
@@ -351,7 +351,7 @@ defaults:
     values:
       layout: "page"
       comments: false
-      search: true
+      search: false
       sidebar: "pkg-config"
       topnav: topnav
       author: Liviu Ionescu
@@ -365,7 +365,7 @@ defaults:
     values:
       layout: "page"
       comments: false
-      search: true
+      search: false
       sidebar: realpath
       topnav: topnav
       author: Liviu Ionescu
@@ -379,7 +379,7 @@ defaults:
     values:
       layout: "page"
       comments: false
-      search: true
+      search: false
       sidebar: sed
       topnav: topnav
       author: Liviu Ionescu
@@ -393,7 +393,7 @@ defaults:
     values:
       layout: "page"
       comments: false
-      search: true
+      search: false
       sidebar: wine
       topnav: topnav
       author: Liviu Ionescu
@@ -407,7 +407,7 @@ defaults:
     values:
       layout: "page"
       comments: false
-      search: true
+      search: false
       sidebar: xbb-bootstrap
       topnav: topnav
       author: Liviu Ionescu
@@ -421,7 +421,7 @@ defaults:
     values:
       layout: "page"
       comments: false
-      search: true
+      search: false
       sidebar: vscode
       topnav: topnav
       author: Liviu Ionescu
@@ -435,7 +435,7 @@ defaults:
     values:
       layout: "page"
       comments: false
-      search: true
+      search: false
       sidebar: xpm
       topnav: topnav
       author: Liviu Ionescu
@@ -449,7 +449,7 @@ defaults:
     values:
       layout: "page"
       comments: false
-      search: true
+      search: false
       sidebar: xpbuild
       topnav: topnav
       author: Liviu Ionescu
@@ -463,7 +463,7 @@ defaults:
     values:
       layout: "page"
       comments: false
-      search: true
+      search: false
       sidebar: xpmake
       topnav: topnav
       author: Liviu Ionescu
@@ -477,7 +477,7 @@ defaults:
     values:
       layout: "page"
       comments: false
-      search: true
+      search: false
       sidebar: xpninja
       topnav: topnav
       author: Liviu Ionescu
@@ -491,7 +491,7 @@ defaults:
     values:
       layout: "page"
       comments: false
-      search: true
+      search: false
       sidebar: xpcdl
       topnav: topnav
       author: Liviu Ionescu
@@ -505,7 +505,7 @@ defaults:
     values:
       layout: "page"
       comments: false
-      search: true
+      search: false
       sidebar: xbb
       topnav: topnav
       author: Liviu Ionescu
@@ -563,7 +563,7 @@ defaults:
     values:
       layout: "page"
       comments: false
-      search: true
+      search: false
       tooltip: true
 
   -
@@ -573,7 +573,7 @@ defaults:
     values:
       layout: "post"
       comments: true
-      search: true
+      search: false
       sidebar: home
       topnav: topnav
       author: Liviu Ionescu
@@ -592,7 +592,7 @@ sidebars:
 - xpm
 
 # The description is used in the feed.xml file.
-description: "Tools to manage, configure and build complex, package based, multi-target, C/C++ projects."
+description: "HTML redirects."
 
 # needed for sitemap.xml file only
 # url: https://idratherbewriting.com
