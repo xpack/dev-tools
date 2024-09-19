@@ -14,5 +14,7 @@ topnav_dropdowns:
       folderitems:
         - title: dev-tools-web-preview
           external_url: https://github.com/xpack/dev-tools-web-preview/
+    - title: xpack-dev-tools
+      folderitems:
         - title: xpack-dev-tools
           external_url: https://github.com/xpack-dev-tools/
