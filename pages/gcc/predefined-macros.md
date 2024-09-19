@@ -14,6 +14,8 @@ comments: true
 
 date: 2022-02-10 18:27:00 +0200
 
+redirect_to: https://xpack-dev-tools.github.io/gcc-xpack/docs/user/
+
 ---
 
 ## Windows

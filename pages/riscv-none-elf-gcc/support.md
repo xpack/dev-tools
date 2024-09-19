@@ -9,7 +9,7 @@ date: 2019-07-10 17:53:00 +0300
 redirect_from:
   - /riscv-none-embed-gcc/support/
 
-redirect_to: https://xpack-dev-tools.github.io/riscv-none-elf-gcc-xpack/support/
+redirect_to: https://xpack-dev-tools.github.io/riscv-none-elf-gcc-xpack/docs/support/
 
 ---
 

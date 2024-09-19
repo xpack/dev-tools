@@ -7,6 +7,8 @@ toc: false
 
 date: 2019-06-27 23:55:00 +0300
 
+redirect_to: https://xpack-dev-tools.github.io/qemu-arm-xpack/docs/faq/
+
 ---
 
 <br/>

@@ -12,6 +12,8 @@ toc: false
 
 date: 2022-10-04 11:43:00 +0300
 
+redirect_to: https://xpack-dev-tools.github.io/mingw-w64-gcc-xpack/docs/install/
+
 ---
 
 ## Overview

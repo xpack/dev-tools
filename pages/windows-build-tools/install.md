@@ -12,6 +12,8 @@ toc: false
 
 date: 2020-07-14 16:26:00 +0300
 
+redirect_to: https://xpack-dev-tools.github.io/windows-build-tools-xpack/docs/install/
+
 ---
 
 ## Overview

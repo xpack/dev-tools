@@ -2,7 +2,7 @@
 title: GNU predefined macros
 permalink: /clang/predefined-macros/
 
-summary: "The preprocessosr built-in macros."
+summary: "The preprocessor built-in macros."
 keywords:
   - clang
   - c++
@@ -12,6 +12,8 @@ keywords:
 comments: true
 
 date: 2022-02-10 18:27:00 +0200
+
+redirect_to: https://xpack-dev-tools.github.io/clang-xpack/docs/user/
 
 ---
 

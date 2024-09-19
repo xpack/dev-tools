@@ -13,6 +13,8 @@ toc: false
 
 date: 2021-05-22 00:27:00 +0300
 
+redirect_to: https://xpack-dev-tools.github.io/clang-xpack/docs/install/
+
 ---
 
 ## Overview

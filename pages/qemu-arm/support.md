@@ -6,6 +6,8 @@ comments: true
 
 date: 2019-06-21 11:08:00 +0300
 
+redirect_to: https://xpack-dev-tools.github.io/qemu-arm-xpack/docs/support/
+
 ---
 
 ## Quicklinks

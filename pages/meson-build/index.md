@@ -10,6 +10,8 @@ comments: true
 
 date: 2020-09-27 10:58:00 +0300
 
+redirect_to: https://xpack-dev-tools.github.io/meson-build-xpack/
+
 ---
 
 ## Quicklinks

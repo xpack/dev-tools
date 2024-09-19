@@ -7,6 +7,8 @@ toc: false
 
 date: 2020-09-29 14:05:00 +0300
 
+redirect_to: https://xpack-dev-tools.github.io/cmake-xpack/docs/faq/
+
 ---
 
 <br/>

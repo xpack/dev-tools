@@ -10,6 +10,8 @@ toc: false
 
 date: 2019-07-10 17:53:00 +0300
 
+redirect_to: https://xpack-dev-tools.github.io/aarch64-none-elf-gcc-xpack/docs/releases/
+
 ---
 
 ___

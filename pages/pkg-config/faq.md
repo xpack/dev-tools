@@ -7,6 +7,8 @@ toc: false
 
 date: 2022-10-04 10:32:00 +0300
 
+redirect_to: https://xpack-dev-tools.github.io/pkg-config-xpack/docs/faq/
+
 ---
 
 <br/>

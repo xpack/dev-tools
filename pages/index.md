@@ -19,3 +19,12 @@ in place.
 Since the release blog posts had URLs in the top xPack site, they could not be
 moved, therefore HTML `<meta>`
 redirects were added there.
+
+## Deprecated pages
+
+Several pages were deprecated and were not redirected:
+
+- [https://xpack.github.io/dev-tools/arm-none-eabi-gcc/python/]({{ site.url }}{{ site.baseurl }}/arm-none-eabi-gcc/python/)
+- [https://xpack.github.io/dev-tools/qemu-arm/gnuarmeclipse/]({{ site.url }}{{ site.baseurl }}/qemu-arm/gnuarmeclipse/)
+- [https://xpack.github.io/dev-tools/qemu-arm/options/]({{ site.url }}{{ site.baseurl }}/qemu-arm/options/)
+- [https://xpack.github.io/dev-tools/xbb-bootstrap/]({{ site.url }}{{ site.baseurl }}/xbb-bootstrap/)

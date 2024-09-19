@@ -10,6 +10,8 @@ toc: false
 
 date: 2020-09-28 17:53:00 +0300
 
+redirect_to: https://xpack-dev-tools.github.io/meson-build-xpack/docs/releases/
+
 ---
 
 ___

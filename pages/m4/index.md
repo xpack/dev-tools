@@ -9,6 +9,8 @@ keywords: m4
 
 date: 2022-10-04 10:32:00 +0300
 
+redirect_to: https://xpack-dev-tools.github.io/m4-xpack/
+
 ---
 
 ## Quicklinks

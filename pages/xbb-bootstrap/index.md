@@ -1,5 +1,5 @@
 ---
-title: The xPack XBB Bootstrap
+title: The xPack XBB Bootstrap - DEPRECATED
 permalink: /xbb-bootstrap/
 
 summary: "A binary distribution of XBB Bootstrap."
