@@ -28,7 +28,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      GITHUB_DEST_REPO: "xpack/dev-tools-web-preview"
+      GITHUB_DEST_REPO: "xpack/dev-tools"
       GIT_COMMIT_USER_EMAIL: "ilg@livius.net"
       GIT_COMMIT_USER_NAME: "Jekyll site CI"
       NOKOGIRI_USE_SYSTEM_LIBRARIES: true

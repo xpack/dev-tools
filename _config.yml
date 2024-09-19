@@ -1,5 +1,5 @@
 url: https://xpack.github.io
-baseurl: /dev-tools-web-preview
+baseurl: /dev-tools
 
 # Default permalink used for posts.
 permalink: /blog/:year/:month/:day/:title/
@@ -7,7 +7,7 @@ permalink: /blog/:year/:month/:day/:title/
 # Update this after editing the CSS files, to force a cache update.
 css-date: 202409180000
 
-repository: xpack/dev-tools-web-preview
+repository: xpack/dev-tools
 
 # This property is useful for conditional filtering of content that is
 # separate from the PDF.
