@@ -22,7 +22,8 @@ redirects were added there.
 
 ## Deprecated pages
 
-Several pages were deprecated and were not redirected:
+Several pages were deprecated and were not migrated to the new sites,
+thus were not redirected:
 
 - [https://xpack.github.io/dev-tools/arm-none-eabi-gcc/python/]({{ site.url }}{{ site.baseurl }}/arm-none-eabi-gcc/python/)
 - [https://xpack.github.io/dev-tools/qemu-arm/gnuarmeclipse/]({{ site.url }}{{ site.baseurl }}/qemu-arm/gnuarmeclipse/)
